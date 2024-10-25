@@ -1,5 +1,5 @@
 {
-  "name": "damienharper/auditor-bundle",
+  "name": "captainperox/auditor-bundle",
   "type": "symfony-bundle",
   "description": "Integrate auditor library in your Symfony projects.",
   "keywords": [
@@ -16,10 +16,22 @@
       "email": "damien.harper@gmail.com"
     }
   ],
+  "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/CaptainPerox/auditor-bundle"
+    },
+    {
+        "type": "vcs",
+        "url": "https://github.com/CaptainPerox/auditor"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
     "php": ">=8.2",
     "ext-intl": "*",
-    "damienharper/auditor": "^3.2",
+    "captainperox/auditor": "dev-master",
     "doctrine/doctrine-bundle": "^2.0",
     "symfony/asset": "^5.4|^6.4|^7.0",
     "symfony/doctrine-bridge": "^5.4|^6.4|^7.0",
